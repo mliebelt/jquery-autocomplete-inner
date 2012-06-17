@@ -27,6 +27,8 @@ Use the following examples:
 The difference here is only, that cities-local.html does not need anything from the internet,
 citites.html needs the connection to get jquery and jquery-ui from the internet.
 
+To start the example, just open the page `cities-local.html` or `cities.html` in any browser, and type in the name of cities mixed with any text. The cities are held in a variable in `application.js`, and could be replaced by any other content locally or remote. See the options for that at [jquery autocomplete](http://jqueryui.com/demos/autocomplete/).
+
 ## Implementation
 
 Base for the implementation was the answer of [abstraktor on stackoverflow](http://stackoverflow.com/questions/1781927/is-it-possible-to-get-autocomplete-for-a-rails-application-in-text-editors-not-o)
